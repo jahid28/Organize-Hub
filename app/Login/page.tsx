@@ -50,9 +50,9 @@ const LoginPage = () => {
           }}
           className="text mb-5 flex  bg border-0 py-2 justify-center focus:outline-none hover:bg-gray-500 rounded text-lg"
         >
-          Login through Google{" "}
+          Login through Google
           <p className="mt-1 ml-2">
-            <FcGoogle />{" "}
+            <FcGoogle />
           </p>
         </button>
 
@@ -76,9 +76,9 @@ const LoginPage = () => {
           }}
           className="text flex  bg border-0 py-2 justify-center focus:outline-none hover:bg-gray-500 rounded text-lg"
         >
-          Login through Github{" "}
+          Login through Github
           <p className="mt-1 ml-2">
-            <FaGithub />{" "}
+            <FaGithub />
           </p>
         </button>
 
