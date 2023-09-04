@@ -1,0 +1,22 @@
+.darkmode {
+  --p-color: rgb(255, 255, 255);
+  --bg-color: rgb(42, 41, 41);
+}
+.bluemode {
+  --p-color: rgb(230, 207, 130);
+  --bg-color: rgb(50, 87, 125);
+}
+.greenmode {
+  --p-color: rgb(160, 237, 197);
+  --bg-color: rgb(41, 83, 57);
+}
+.lightmode {
+  --p-color: rgb(0, 0, 0);
+  --bg-color: rgb(222, 221, 221);
+}
+.bg {
+  background-color: var(--bg-color);
+}
+.text {
+  color: var(--p-color);
+}

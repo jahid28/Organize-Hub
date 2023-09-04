@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  overflow-x: hidden;
+}
+
+.darkmode {
+  --p-color: rgb(255, 255, 255);
+  --bg-color: rgb(54, 53, 53);
+  --bg-dark:rgb(10, 10, 10);
+}
+.bluemode {
+  --p-color: rgb(230, 207, 130);
+  --bg-color: rgb(50, 87, 125);
+  --bg-dark:rgb(18, 21, 44);
+}
+.greenmode {
+  --p-color: rgb(160, 237, 197);
+  --bg-color: rgb(55, 114, 78);
+  --bg-dark:rgb(15, 37, 24);
+}
+.lightmode {
+  --p-color: rgb(0, 0, 0);
+  --bg-color: rgb(245, 245, 245);
+  --bg-dark:rgb(182, 184, 183);
+}
+.brownmode {
+  --p-color: rgb(255, 255, 255);
+  --bg-color: rgb(184, 137, 83);
+  --bg-dark:rgb(104, 78, 29);
+}
+.pinkmode {
+  --p-color: rgb(255, 255, 255);
+  --bg-color: rgb(142, 94, 124);
+  --bg-dark:rgb(98, 56, 92);
+}
+.bg {
+  background-color: var(--bg-color);
+}
+.bg_dark {
+  background-color: var(--bg-dark);
+}
+.text {
+  color: var(--p-color);
+}
+
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+} */
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+} */
+
+/* body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+} */
