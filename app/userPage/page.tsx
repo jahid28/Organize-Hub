@@ -4,9 +4,7 @@ import {MdAddTask} from 'react-icons/md'
 import {IoIosToday} from 'react-icons/Io'
 import {CgNotes} from 'react-icons/cg'
 import { useRouter } from 'next/navigation'
-export const config={
-  unstable_runtimeJS:false
-}
+
 const UserPage = () => {
   const router=useRouter()
 

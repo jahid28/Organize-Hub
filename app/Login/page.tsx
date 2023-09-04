@@ -1,9 +1,4 @@
 "use client";
-import Image from "next/image";
-
-// import User from "@/models/user";
-// import { connectToDB } from "@/utils/database";
-
 import { useEffect, useState } from "react";
 import { FcGoogle } from "react-icons/fc";
 import { FaGithub } from "react-icons/fa";

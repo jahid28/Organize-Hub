@@ -1,4 +1,4 @@
-import Note from "@/models/note";
+import Note from "@/models/Note";
 import { connectToDB } from "@/utils/database";
 import { NextResponse } from "next/server";
 // import { NextApiRequest, NextApiResponse } from 'next';

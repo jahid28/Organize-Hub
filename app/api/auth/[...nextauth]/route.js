@@ -6,11 +6,10 @@ import GithubProvider from 'next-auth/providers/github';
 import { usePathname,useRouter } from 'next/navigation'
 
 
-import User from "@/models/user";
+import User from "@/models/User";
 import { connectToDB } from "@/utils/database";
 import { NextResponse } from "next/server";
 
-// console.log('logged in')
 const handler = NextAuth({
   providers: [
     GoogleProvider({
@@ -35,8 +34,6 @@ const handler = NextAuth({
 
     async signIn({ account, profile, user, credentials }) {
       try {
-        // console.log('pro is ', profile)
-        // console.log('user is ', user)
         await connectToDB();
         const checkEmail = await User.find({ email: user.email })
 
@@ -48,7 +45,6 @@ const handler = NextAuth({
         return true
       }
       catch (error) {
-        console.log("Error checking if user exists: ", error.message);
         return false
       }
       // finally{
@@ -65,7 +61,6 @@ const handler = NextAuth({
 //         // Returning true to allow sign out
 //         return true;
 //       } catch (error) {
-//         console.log("Error during sign-out: ", error.message);
 //         return false;
 //       }
 //     },
