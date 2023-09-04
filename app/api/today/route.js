@@ -1,4 +1,4 @@
-import Today from "@/models/Today";
+import Today from "@/models/today";
 import { connectToDB } from "@/utils/database";
 import { NextResponse } from "next/server";
 // import { NextApiRequest, NextApiResponse } from 'next';

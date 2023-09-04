@@ -1,8 +1,7 @@
-import Note from "@/models/Note";
+import Note from "@/models/note";
 import { connectToDB } from "@/utils/database";
 import { NextResponse } from "next/server";
 // import { NextApiRequest, NextApiResponse } from 'next';
-
 export async function POST(req) {
     const { email, noteHead, noteBody } = await req.json();
     await connectToDB()

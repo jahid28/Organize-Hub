@@ -6,7 +6,7 @@ import GithubProvider from 'next-auth/providers/github';
 import { usePathname,useRouter } from 'next/navigation'
 
 
-import User from "@/models/User";
+import User from "@/models/user";
 import { connectToDB } from "@/utils/database";
 import { NextResponse } from "next/server";
 

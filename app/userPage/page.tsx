@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
 import {MdAddTask} from 'react-icons/md'
-import {IoIosToday} from 'react-icons/Io'
+import {IoIosToday} from 'react-icons/io'
 import {CgNotes} from 'react-icons/cg'
 import { useRouter } from 'next/navigation'
 
