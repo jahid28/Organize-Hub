@@ -89,7 +89,7 @@ const TodayPage = () => {
   return (
     <div className="w-[100vw] h-[100vh] bg grid place-items-center">
       <div className="border-2 border-black p-4 rounded-md w-[90vw] md:w-[50vw]">
-        <h1 className="text-3xl mb-4">Your today's tasks : </h1>
+        <h1 className="text-3xl mb-4">Your today&apos;s tasks : </h1>
 
         {allTodayTask.map((e: any, index) => (
           <div
@@ -106,7 +106,7 @@ const TodayPage = () => {
           }}
           className="p-2 rounded-md bg_dark text mt-3"
         >
-          Set Tomorrow's Tasks
+          Set Tomorrow&apos;s Tasks
         </button>
         <br />
         <Link href={"/otherTodayTasks"}>
@@ -119,7 +119,7 @@ const TodayPage = () => {
       {isInputVisible ? (
         <div className="w-[100vw] h-[100vh] grid place-items-center bg fixed">
           <section className="border-black border-2 p-2 rounded-md w-[90vw] md:w-[50vw]">
-           <h1 className="text-3xl mb-4">Add tomorrow's tasks</h1>
+           <h1 className="text-3xl mb-4">Add tomorrow&apos;s tasks</h1>
             <textarea
             value={noteBody}
               onChange={handleNoteBody}

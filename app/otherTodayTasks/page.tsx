@@ -104,7 +104,7 @@ const OtherTodayTasks = () => {
         
         <Link href={"/today"}>
         <button className="bg_dark text p-2 mt-4 rounded-md">
-          Today's Tasks
+          Today&apos;s Tasks
         </button>
       </Link>
       </div>
