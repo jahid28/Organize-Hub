@@ -11,7 +11,7 @@ export const connectToDB = async () => {
   }
 
   try {
-     await mongoose.connect('mongodb+srv://SigmaJDN:Jahidkhan%40786@cluster0.bln78th.mongodb.net/organize_hub')
+     await mongoose.connect(`${process.env.MONGODB_URL}`)
 
     isConnected = true;
 
